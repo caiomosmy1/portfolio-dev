@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Dev Portfolio</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-black text-white">
+
+  <!-- HERO -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    
+    <h1 class="text-4xl md:text-6xl font-bold mb-6">
+      Desenvolvedor focado em<br>
+      <span class="text-green-400">performance e resultados</span>
+    </h1>
+
+    <p class="text-gray-400 max-w-xl mb-8">
+      Construo aplicações web rápidas, escaláveis e com foco em conversão.
+      Especialista em front-end moderno e sistemas completos.
+    </p>
+
+    <div class="flex gap-4">
+      <a href="#projects" class="bg-green-500 px-6 py-3 rounded-xl font-semibold hover:scale-105 transition">
+        Ver Projetos
+      </a>
+
+      <a href="#contact" class="border border-gray-600 px-6 py-3 rounded-xl hover:bg-gray-800 transition">
+        Contato
+      </a>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="py-20 px-6 max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">Sobre mim</h2>
+
+    <p class="text-gray-400">
+      Desenvolvedor com foco em criação de produtos digitais, dashboards e aplicações web.
+      Experiência com JavaScript, C#, APIs e sistemas completos.
+    </p>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projects" class="py-20 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-10 text-center">Projetos</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- CARD -->
+      <div class="bg-gray-900 p-6 rounded-2xl hover:scale-105 transition">
+        <h3 class="text-xl font-semibold mb-3">Dashboard Financeiro</h3>
+        <p class="text-gray-400 mb-4">
+          Sistema completo para controle financeiro com gráficos e analytics.
+        </p>
+        <a href="#" class="text-green-400">Ver projeto →</a>
+      </div>
+
+      <div class="bg-gray-900 p-6 rounded-2xl hover:scale-105 transition">
+        <h3 class="text-xl font-semibold mb-3">Landing Pages</h3>
+        <p class="text-gray-400 mb-4">
+          Criação de páginas focadas em conversão para negócios.
+        </p>
+        <a href="#" class="text-green-400">Ver projeto →</a>
+      </div>
+
+      <div class="bg-gray-900 p-6 rounded-2xl hover:scale-105 transition">
+        <h3 class="text-xl font-semibold mb-3">Sistema Web</h3>
+        <p class="text-gray-400 mb-4">
+          CRUD completo com backend em C# e integração com APIs.
+        </p>
+        <a href="#" class="text-green-400">Ver projeto →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="py-20 px-6 bg-gray-950 text-center">
+    <h2 class="text-3xl font-bold mb-10">Stack</h2>
+
+    <div class="flex flex-wrap justify-center gap-4">
+      <span class="bg-gray-800 px-4 py-2 rounded-xl">JavaScript</span>
+      <span class="bg-gray-800 px-4 py-2 rounded-xl">HTML</span>
+      <span class="bg-gray-800 px-4 py-2 rounded-xl">CSS</span>
+      <span class="bg-gray-800 px-4 py-2 rounded-xl">C#</span>
+      <span class="bg-gray-800 px-4 py-2 rounded-xl">SQL</span>
+      <span class="bg-gray-800 px-4 py-2 rounded-xl">APIs</span>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contact" class="py-20 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-6">Contato</h2>
+
+    <p class="text-gray-400 mb-6">
+      Aberto a oportunidades como desenvolvedor front-end ou fullstack.
+    </p>
+
+    <a href="mailto:seuemail@email.com"
+       class="bg-green-500 px-6 py-3 rounded-xl font-semibold hover:scale-105 transition">
+      Falar comigo
+    </a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-6 text-gray-500">
+    © 2026 - Seu Nome
+  </footer>
+
+</body>
+</html>
